@@ -1,6 +1,6 @@
 def es_primo(div):
     for n in range(2, div):
-        if num % n == 0:
+        if div % n == 0:
 #            print("No es número primo", n, "es divisor")
             return False
     print(div, "es número primo")
